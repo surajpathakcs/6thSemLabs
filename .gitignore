@@ -1,2 +1,7 @@
 #Remove .vs
 .vs/
+
+#Ignore build files , directories and temporary files
+*/obj/*
+*/bin/*
+
