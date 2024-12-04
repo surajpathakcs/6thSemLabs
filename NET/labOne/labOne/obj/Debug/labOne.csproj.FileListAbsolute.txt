@@ -1,0 +1,14 @@
+D:\mine\college\6thsem\lab\NET\labOne\labOne\bin\Debug\labOne.exe.config
+D:\mine\college\6thsem\lab\NET\labOne\labOne\bin\Debug\labOne.exe
+D:\mine\college\6thsem\lab\NET\labOne\labOne\bin\Debug\labOne.pdb
+D:\mine\college\6thsem\lab\NET\labOne\labOne\obj\Debug\labOne.csproj.AssemblyReference.cache
+D:\mine\college\6thsem\lab\NET\labOne\labOne\obj\Debug\labOne.csproj.CoreCompileInputs.cache
+D:\mine\college\6thsem\lab\NET\labOne\labOne\obj\Debug\labOne.exe
+D:\mine\college\6thsem\lab\NET\labOne\labOne\obj\Debug\labOne.pdb
+D:\college\6thsem\lab\NET\labOne\labOne\bin\Debug\labOne.exe.config
+D:\college\6thsem\lab\NET\labOne\labOne\bin\Debug\labOne.exe
+D:\college\6thsem\lab\NET\labOne\labOne\bin\Debug\labOne.pdb
+D:\college\6thsem\lab\NET\labOne\labOne\obj\Debug\labOne.csproj.AssemblyReference.cache
+D:\college\6thsem\lab\NET\labOne\labOne\obj\Debug\labOne.csproj.CoreCompileInputs.cache
+D:\college\6thsem\lab\NET\labOne\labOne\obj\Debug\labOne.exe
+D:\college\6thsem\lab\NET\labOne\labOne\obj\Debug\labOne.pdb
