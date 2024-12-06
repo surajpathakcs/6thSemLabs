@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace labOne
 {
+
+    //Programmer -> Employee -> DotNetDeveloper (single , multilevel)
      class Employee
     {
         public double salary = 300000;
@@ -22,17 +24,48 @@ namespace labOne
         public double insurance = 1000000;
     }
 
+    //GrandFather ->Father -> Son , Daughter (Hierarchial , Multiple , Hybrid)
 
-    class Father {
-        public string father_name = "nanda baba";
-    }
-    class son : Father{
-        public string name = "kanaiya";
-    }
-    class daughter : Father
+    class GrandFather
     {
-        public string name = "radha rani";
+        public string grandFather_name = "ugrasena";
     }
+    class Father : GrandFather {
+        public string father_name = "Vasudev";
+    }
+    interface IMother { 
+       void ShowMotherName();
+    }
+    class son : Father , IMother{
+        public string name = "krishna";
+
+        public void ShowSonDetails()
+        {
+            Console.WriteLine("Son :" + name);
+        }
+
+        public void ShowMotherName()
+    {
+        Console.WriteLine("Mother's Name: Devaki");
+    }
+}
+    class daughter : Father , IMother
+    {
+        public string name = "subhadra";
+
+        public void ShowDaughterDetails()
+        {
+            Console.WriteLine("Daughter : " + name);
+        }
+
+        public void ShowMotherName()
+        {
+            Console.WriteLine("Mother's Name: Devaki");
+        }
+
+    }
+
+   
 
 
 

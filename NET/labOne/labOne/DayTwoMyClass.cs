@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace labOne
 {
-    internal class MyClass
+    internal class DayTwoMyClass
     {
+        //Day One
         /*
        Create a function of Each Topic:
            1) Display Hello World five times in C#.
@@ -61,10 +62,10 @@ namespace labOne
             int[,,] ThreeDimArray = new int[2, 3, 4]
             {
                 {
-                    {2,64,12,60 },{96,29,67,44 },{89,23,13,92 }
+                    {90,32,12,78 },{31,89,67,44 },{89,66,40,61 }
                 },
                 {
-                    {55,45,78,65},{2,64,12,90},{96,29,4,43}
+                    {23,45,78,70},{54,64,31,90},{78,29,46,43}
                 }
             };
 
@@ -90,23 +91,11 @@ namespace labOne
         {
             int[][] arrTop = new int[3][]
             {
-               new int [6] { 9 , 8 ,7 ,2 ,3 , 1 },
-               new int [1] {1} ,
-               new int [3]  {9, 4, 5 }
+               new int [6] { 2 , 4 ,7 ,9 ,3 , 0 },
+               new int [1] {4} ,
+               new int [3]  {7, 6, 5 }
             };
 
         }
-
-    /*public void Main()
-    {
-            MyClass obj = new MyClass();
-            
-             obj.Hello();
-            obj.CheckOddEven();
-            obj.Sum();
-            obj.ThreeDimension();
-             
-
-        }*/
     }
 }

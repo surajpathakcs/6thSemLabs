@@ -2,22 +2,23 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace labOne
 {
-    internal class LabOneProgram
+    internal class DayTwoAndOneProgram
     {
-     /*   static void Main(string[] args)
+
+/*
+        static void Main(string[] args)
         {
-
-             1st day five questions */
-
-            /*            MyClass obj = new MyClass();
-                        Program program = new Program();
-                        LabStruct StructObject = new LabStruct();
-                        LabStruct EnumObject = new LabStruct();
-                        LabStruct labStruct = new LabStruct();
+  */          /* 1st day five questions */
+/*
+                        DayTwoMyClass obj = new DayTwoMyClass();
+                        DayTwoLabStruct StructObject = new DayTwoLabStruct();
+                        DayTwoLabStruct EnumObject = new DayTwoLabStruct();
+                        DayTwoLabStruct labStruct = new DayTwoLabStruct();
 
 
 
@@ -26,11 +27,11 @@ namespace labOne
                         obj.Sum();
                         obj.ThreeDimension();
 
-
+*/
                         /*  Classes Enums and Structures */
 
-
-            /*            StructObject.MyStructFunction();
+/*
+                        StructObject.MyStructFunction();
                         EnumObject.EnumFunction();
 
                         StaticCLass.Display();
@@ -47,8 +48,10 @@ namespace labOne
                         Console.WriteLine($"{x1} {x2} {x3}");
 
                         Console.WriteLine("\n\nPress any key to Exit");
-
+                        Console.ReadKey();
         }
-            */
+            
+     */
     }
 }
+

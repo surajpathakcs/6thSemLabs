@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace labOne
@@ -10,61 +9,60 @@ namespace labOne
     internal class Program
     {
 
-
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-
-/*            
-            Programmer jyoti = new Programmer();
+            // Demonstrating Single Inheritance
+            Console.WriteLine("Single Inheritance (Programmer -> Employee -> DotNetDeveloper):");
             DotNetDeveloper suraj = new DotNetDeveloper();
-            Console.WriteLine("Single Inheritance ");
-            Console.WriteLine("jyoti's salary : "+jyoti.salary);
-            Console.WriteLine("jyoti's bonus : "+jyoti.bonus+ "\n");
-            Console.WriteLine("Multilevel Inheritance");
-            Console.WriteLine("suraj's Insurance Cover : "+ suraj.insurance);
-            Console.WriteLine("Total Equtity Valued at Year 1 : "+suraj.equity);
-            Console.WriteLine("suraj's salary and bonus added : " + (suraj.salary+suraj.bonus));
+            Console.WriteLine("Employee Salary: " + suraj.salary);
+            Console.WriteLine("Programmer Bonus: " + suraj.bonus);
+            Console.WriteLine("Programmer Equity: " + suraj.equity);
+            Console.WriteLine("DotNetDeveloper Insurance: " + suraj.insurance);
+            Console.WriteLine(); // Line break
 
+            // Demonstrating Multilevel Inheritance
+            Console.WriteLine("Multilevel Inheritance (Employee -> Programmer -> DotNetDeveloper):");
+            DotNetDeveloper kanha = new DotNetDeveloper();
+            Console.WriteLine("Employee Salary: " + kanha.salary);
+            Console.WriteLine("Programmer Bonus: " + kanha.bonus);
+            Console.WriteLine("Programmer Equity: " + kanha.equity);
+            Console.WriteLine("DotNetDeveloper Insurance: " + kanha.insurance);
+            Console.WriteLine(); // Line break
 
-            Console.WriteLine(" \n\n ");
-
-            Console.WriteLine("Hierarchial Inheritance");
+            // Demonstrating Hierarchical Inheritance (GrandFather -> Father -> Son/Daughter)
+            Console.WriteLine("Hierarchical Inheritance (GrandFather -> Father -> Son, Daughter):");
             son krishna = new son();
-            daughter radha = new daughter();
-            Console.WriteLine(krishna.name + " calls father as "+ krishna.father_name);
-            Console.WriteLine(radha.name + " calls father as "+ radha.father_name);
+            daughter subhadra = new daughter();
 
+            // Showing details of Son
+            krishna.ShowSonDetails(); // From Son
+            krishna.ShowMotherName(); // From IMother (implemented by Son)
 
-            */
-/*
+            Console.WriteLine(); // Line break
 
+            // Showing details of Daughter
+            subhadra.ShowDaughterDetails(); // From Daughter
+            subhadra.ShowMotherName(); // From IMother (implemented by Daughter)
 
-            Student student = new Student();    //default , static
-            Student student2 = new Student();    //default
+            Console.WriteLine(); // Line break
 
-            student2.Name = "Krishna";
-            student2.Address = "Gokul";
-            Console.WriteLine(student2.Name +" "+ student2.Address);
-
-            Student student3 = new Student(student2);//Object Constructor
-
-
-
-            */
-
-            
-
-
-
-
-
-            MyChild myChild = new MyChild();
-            myChild.show();
-            myChild.OverrideMethod();
-
-            
-
+            Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
+
+            /*
+
+
+          MyChild myChild = new MyChild();
+          myChild.show();
+          myChild.OverrideMethod();
+
+            
+
+          Console.ReadKey();
+
+            */
+
+
 
         }
     }

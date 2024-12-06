@@ -38,9 +38,9 @@ namespace labOne
         Saturday
     }
 
-    internal class LabStruct
+    internal class DayTwoLabStruct
     {
-        public void NamedFunction(string a = "dipesh" , string b = "Hari" , string c = "sita")
+        public void NamedFunction(string a = "sudipa" , string b = "jordan" , string c = "sita")
         {
             Console.WriteLine($"{a} {b} {c}");
             Console.WriteLine("\n\n");
@@ -70,8 +70,8 @@ namespace labOne
         public void MyStructFunction()
         {
             MyStruct str = new MyStruct();
-            str.Name = "sedai hero";
-            str.Address = "Ktm";
+            str.Name = "sudipa amgai";
+            str.Address = "gorkha";
 
             Console.WriteLine(str.Name);
             Console.WriteLine(str.Address);
