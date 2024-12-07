@@ -41,3 +41,16 @@ namespace DayFour
 
 
 }
+
+
+
+
+
+/*           Student student = new Student();
+           student.Show();
+           student.Select();
+           student.Create();
+           student.Delete();
+           student.Update();
+
+           Console.ReadKey();                      */
