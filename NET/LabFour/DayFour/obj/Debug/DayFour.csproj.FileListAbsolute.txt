@@ -1,0 +1,7 @@
+D:\college\6thsem\lab\NET\LabFour\DayFour\bin\Debug\DayFour.exe.config
+D:\college\6thsem\lab\NET\LabFour\DayFour\bin\Debug\DayFour.exe
+D:\college\6thsem\lab\NET\LabFour\DayFour\bin\Debug\DayFour.pdb
+D:\college\6thsem\lab\NET\LabFour\DayFour\obj\Debug\DayFour.csproj.AssemblyReference.cache
+D:\college\6thsem\lab\NET\LabFour\DayFour\obj\Debug\DayFour.csproj.CoreCompileInputs.cache
+D:\college\6thsem\lab\NET\LabFour\DayFour\obj\Debug\DayFour.exe
+D:\college\6thsem\lab\NET\LabFour\DayFour\obj\Debug\DayFour.pdb
