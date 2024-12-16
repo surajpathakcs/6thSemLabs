@@ -40,7 +40,7 @@ namespace labOne
 
     internal class DayTwoLabStruct
     {
-        public void NamedFunction(string a = "sudipa" , string b = "jordan" , string c = "sita")
+        public void NamedFunction(string a = "sudipa" , string b = "jordan " , string c = "sita")
         {
             Console.WriteLine($"{a} {b} {c}");
             Console.WriteLine("\n\n");
@@ -70,7 +70,7 @@ namespace labOne
         public void MyStructFunction()
         {
             MyStruct str = new MyStruct();
-            str.Name = "sudipa amgai";
+            str.Name = "asmita sharma";
             str.Address = "gorkha";
 
             Console.WriteLine(str.Name);

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B868066C-9C5F-428C-A02B-2CAFC8F03498}</ProjectGuid>
+    <ProjectGuid>{7338132A-A0B5-482D-9B0A-0146E6239CAB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>labOne</RootNamespace>
-    <AssemblyName>labOne</AssemblyName>
+    <RootNamespace>labfive</RootNamespace>
+    <AssemblyName>labfive</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DayThreeConstructors.cs" />
-    <Compile Include="DayThreeInheritance.cs" />
-    <Compile Include="TempProgram.cs" />
-    <Compile Include="DayThreeMethodHiding.cs" />
-    <Compile Include="DayTwoMyClass.cs" />
-    <Compile Include="DayTwoLabStruct.cs" />
+    <Compile Include="DelegateLab.cs" />
+    <Compile Include="LINQLab.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

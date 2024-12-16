@@ -1,0 +1,7 @@
+D:\college\6thsem\lab\NET\LabFive\labfive\bin\Debug\labfive.exe.config
+D:\college\6thsem\lab\NET\LabFive\labfive\bin\Debug\labfive.exe
+D:\college\6thsem\lab\NET\LabFive\labfive\bin\Debug\labfive.pdb
+D:\college\6thsem\lab\NET\LabFive\labfive\obj\Debug\labfive.csproj.AssemblyReference.cache
+D:\college\6thsem\lab\NET\LabFive\labfive\obj\Debug\labfive.csproj.CoreCompileInputs.cache
+D:\college\6thsem\lab\NET\LabFive\labfive\obj\Debug\labfive.exe
+D:\college\6thsem\lab\NET\LabFive\labfive\obj\Debug\labfive.pdb
