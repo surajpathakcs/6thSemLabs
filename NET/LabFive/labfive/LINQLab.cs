@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,6 +20,7 @@ namespace labfive
     { 
         public linq()
         {
+            Console.WriteLine("LINQ Part :");
             List<Employees> Employeelist = new List<Employees>() { 
                 new Employees{Name="Anish Acharya", Address = "Palpa" , Salary = 20000},
                 new Employees{Name="Suraj Pathak" , Address = "Kathmandu" , Salary = 420000},
@@ -30,8 +32,8 @@ namespace labfive
             {
                 Console.WriteLine( a.Name);
             }
-/*
 
+            Console.WriteLine(" ");
 
             List<int> Num = new List<int>() 
         {
@@ -45,8 +47,9 @@ namespace labfive
             {
                 Console.WriteLine(a.ToString());
             }
+        Console.WriteLine(" ");
         
-*/
+
         }
 
     }

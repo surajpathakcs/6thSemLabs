@@ -45,11 +45,11 @@
   <ItemGroup>
     <Compile Include="DayThreeConstructors.cs" />
     <Compile Include="DayThreeInheritance.cs" />
-    <Compile Include="TempProgram.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="DayThreeMethodHiding.cs" />
     <Compile Include="DayTwoMyClass.cs" />
     <Compile Include="DayTwoLabStruct.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="OneandTwo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

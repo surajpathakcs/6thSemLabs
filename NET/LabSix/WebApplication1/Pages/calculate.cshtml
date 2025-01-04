@@ -1,0 +1,20 @@
+﻿@page
+@model WebApplication1.Pages.calculateModel
+@{
+}
+
+<h1>Add two number</h1>
+@Model.Title
+  <form method="post">
+
+    <label>Enter Number One :</label><br />
+    <input type="text" id="num1" asp-for="Num1" class="form-control"/><br />
+    <label>Enter Number One :</label><br />
+    <input type="text" id="num2" asp-for="Num2" class="form-control"/><br />
+    <button type="submit" value="Add" class="form-control">Calculate</button>
+  </form>
+  <div>
+     <label>Result :</label>
+      @Model.Result==0 ? " " :
+    <label>@Model.Result</label>
+  </div>

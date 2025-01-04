@@ -11,7 +11,17 @@ namespace labfive
         static void Main(string[] args)
         {
 
-            linq linq = new linq();
+            linq linq = new linq(); //linq constructor call
+            
+
+
+            DelegateTest delegateObj = new DelegateTest();
+            Calculation call = new Calculation(delegateObj.Add);
+            Calculation1 callArea = new Calculation1(delegateObj.Area);
+            call(17, 26);
+            call = delegateObj.Sub;
+            call(17, 26);
+            callArea(17);
 
 
             Console.ReadKey();
@@ -21,11 +31,5 @@ namespace labfive
     }
 }
 
-            /*
-            DelegateTest delegateObj = new DelegateTest();
-            Calculation call = new Calculation(delegateObj.Add);
-            Calculation1 call2 = new Calculation1(delegateObj.Area);
-            call(17, 26);   
-            call = delegateObj.Sub;
-            call(17, 26);
-            call2(17);*/
+            
+            

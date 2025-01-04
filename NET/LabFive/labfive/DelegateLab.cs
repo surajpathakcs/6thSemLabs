@@ -10,15 +10,19 @@ namespace labfive
     public delegate void Calculation1(int a);
     class DelegateTest { 
         public void Add(int a , int b) { 
+            Console.WriteLine("Delegate Add :");
             Console.WriteLine(a + b );
         }
 
         public void Sub(int a , int b) {
-            Console.WriteLine(a - b ); 
+            Console.WriteLine("Delegate Sub :");
+            Console.WriteLine(a - b );
+
         }
 
         public void Area(int a)
         {
+            Console.WriteLine("Delegate Area :");
             Console.WriteLine(a * a);
         }
     }

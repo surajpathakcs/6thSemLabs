@@ -10,30 +10,39 @@ namespace DayFour
     {
         static void Main(string[] args)
         {
+            Student student = new Student();
+            student.Show();
+            student.Select();
+            student.Create();
+            student.Delete();
+            student.Update();
 
 
-            try
-            {
-                var a = 15;
+
+
+                try
+                {
+                    var divident = 15;
                 
-                var b = 0;
-                var c = a/b;
+                    var divisor = 0;
               
-                if ( b == 0 )
-                {   
-                  throw new MyException("Divisor is zero");
+                    if ( divisor == 0 )
+                    {   
+                      throw new MyException("Divisor is zero");
                     
-                }
+                    }
 
-            }
-            catch (MyException ex)
+                var result = divident / divisor;
+
+                }
+                catch (MyException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            /*catch (DivideByZeroException ex)
             {
                 Console.WriteLine(ex.Message);
-            }
-            catch (DivideByZeroException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            }*/
 
             Console.ReadKey();
 

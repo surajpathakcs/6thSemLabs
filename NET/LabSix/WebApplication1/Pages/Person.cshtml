@@ -1,0 +1,12 @@
+﻿@page
+@model WebApplication1.Pages.PersonModel
+@{
+}
+@Model.message
+<h1>Insert Personal Details</h1>
+<form method="post">
+    Name <input type="text" class="form-control"  asp-for="Name"/>
+    Phone <input type="text" class="form-control"  asp-for="Phone"/>
+    Email <input type="email" class="form-control"  asp-for="Email"/>
+    <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+</form>
