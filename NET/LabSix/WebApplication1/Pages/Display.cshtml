@@ -3,3 +3,26 @@
 @{
 }
 <h1>Display Record</h1>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Action</th>
+    </tr>
+
+@foreach(var person in Model.personList)
+{
+    <tr>
+        <td>@person.Name</td>
+        <td>@person.Email</td>
+        <td>@person.Contact</td>
+        <td>
+            <a href="/Delete/@person.Id" class="btn btn-danger">Delete</a>
+            <a href="/Edit/@person.Id" class="btn btn-success">Edit</a>
+        </td>
+    </tr>
+}
+
+</table>
