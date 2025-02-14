@@ -1,0 +1,38 @@
+hii my name is suraj pathak
+and you are very much welcomed here
+what's your name
+huhh
+helllo
+hiii
+laksdfj
+asdlkj
+askdfj
+
+
+
+
+asdkfj
+asdkfja
+fdjasldk
+askldfj
+asdkfja
+sdfoj
+int main(){
+ int i;
+ printf("%d",i);
+ return 0;
+}
+
+skdlf
+adkslf
+alksdfj
+asklda
+dfkla
+alskdjf
+yagraj
+int main(){
+int yagraj =20;
+}
+hey 
+hiii
+beautiful

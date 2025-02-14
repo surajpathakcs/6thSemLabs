@@ -14,13 +14,13 @@
 
 @foreach(var person in Model.personList)
 {
-    <tr>
+    <tr>    
         <td>@person.Name</td>
         <td>@person.Email</td>
-        <td>@person.Contact</td>
+        <td>@person.Phone</td>
         <td>
-            <a href="/Delete/@person.Id" class="btn btn-danger">Delete</a>
-            <a href="/Edit/@person.Id" class="btn btn-success">Edit</a>
+            <a href="/Delete/?Id=@person.Id" class="btn btn-danger">Delete</a>
+            <a href="/Edit/?Id=@person.Id" class="btn btn-success">Edit</a>
         </td>
     </tr>
 }

@@ -16,6 +16,7 @@ int main(){
 	while(s[i]!='\0'){
 		printf("%c",s[i]);
 		c=s[i++];
+		
 		switch(state){
 			case 0:
 				if(c=='0')
@@ -26,8 +27,7 @@ int main(){
 					state = 4;
 				break;
 				
-			case
-			 1:
+			case 1:
 				if(c=='1')
 					state=2;
 				else if(c=='0')

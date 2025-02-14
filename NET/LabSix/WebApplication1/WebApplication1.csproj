@@ -5,7 +5,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Edit.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MySql.Data" Version="9.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Edit.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Edit.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Edit.cshtml" />
   </ItemGroup>
 
 </Project>

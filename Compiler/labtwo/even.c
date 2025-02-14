@@ -1,10 +1,13 @@
 #include<stdio.h>
 
 int main(){
-	int state = 0, i = 0;
+	int state = 0, i = 0,choice;
 	char s[100],c;
 	
-	printf("Enter the input string ");
+	
+	do{
+	
+	printf("Enter the input string : ");
 	scanf("%s",s);
 	
 	
@@ -53,10 +56,13 @@ int main(){
 		}
 	
 		if(state == 0 || state == 3){
-			printf("string is accepted ");
+			printf("string is accepted \n");
 		}
 		else{
-			printf("String is not accepted");
+			printf("String is not accepted\n");
 		}
+		printf("Do you want to check another string?\nYes->1\nNo->0 : ");
+		scanf("%d",&choice);
+	}while(choice==1);
 	return 0;
 }

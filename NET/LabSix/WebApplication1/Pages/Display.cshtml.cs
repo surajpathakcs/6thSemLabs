@@ -9,7 +9,7 @@ namespace WebApplication1.Pages
         public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public string Contact { get; set; }
+        public string Phone { get; set; }
     }
     public class DisplayModel : PageModel
     {
@@ -30,12 +30,12 @@ namespace WebApplication1.Pages
                 person.Id = reader.GetInt32(0);
                 person.Name = reader.GetString(1);
                 person.Email = reader.GetString(2);
-                person.Contact = reader.GetString(3);
+                person.Phone = reader.GetString(3);
                 personList.Add(person);
 ;            }
             conn.Close();
         }
 
-       
+        
     }
 }
